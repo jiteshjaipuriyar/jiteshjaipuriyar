@@ -4,7 +4,7 @@ export const profile = {
   tagline: "Strategic maritime advisor — commercial governance, fleet optimisation and decarbonisation.",
   location: "Dubai Marina, Dubai, UAE",
   linkedin: "https://www.linkedin.com/in/captain-jitesh-jaipuriyar-afni-6695997/",
-  email: "contact@example.com",
+  email: "jiteshcapt@gmail.com",
 };
 
 export const stats = [
