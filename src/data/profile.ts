@@ -2,7 +2,7 @@ export const profile = {
   name: "Captain Jitesh Jaipuriyar",
   post: "AFNI",
   tagline: "Strategic maritime advisor — commercial governance, fleet optimisation and decarbonisation.",
-  location: "Dubai Marina, Dubai, UAE",
+  location: "Dubai, UAE",
   linkedin: "https://www.linkedin.com/in/captain-jitesh-jaipuriyar-afni-6695997/",
   email: "jiteshcapt@gmail.com",
 };
