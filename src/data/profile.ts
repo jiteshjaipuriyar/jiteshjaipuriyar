@@ -17,34 +17,38 @@ export const stats = [
 export type Role = { company: string; title: string; period: string; place: string; points: string[] };
 
 export const experience: Role[] = [
-  { company: "Alphard Maritime Group", title: "Director — Commercial, Compliance & ESG", period: "2023 — Present", place: "UAE", points: [
-    "Directs commercial governance, chartering strategy and freight-risk frameworks for the group's dry bulk portfolio.",
-    "Oversees fleet deployment and technical performance to maximise net yield per vessel.",
-    "Hedges exposure through Cape 5TC and Panamax 5TC FFAs and bunker contracts.",
-    "Formulates and embeds group-wide ESG policy; evaluates vessel acquisitions on valuation, tradability and GHG/CII.",
+  { company: "Alphard Athena DMCC", title: "Director — Commercial, Compliance & ESG", period: "Nov 2023 — Present", place: "Dubai", points: [
+    "Spearheads global ocean freight for third-party cargo — own-vessel deployment, freight negotiation and charter party execution for first-class charterers, industrial majors and grain houses.",
+    "Leads the commercial team managing over $200 million in maritime assets across load-port, transit and discharge execution.",
+    "Performs counterparty due diligence and devises hedging strategies for forward trading positions.",
+    "Works with technical managers to monitor performance and remove bottlenecks that erode margins.",
+    "Formulates and enforces compliance, governance and ESG strategy across every fixture and the company.",
   ]},
-  { company: "Navozyme", title: "Co-Founder & Board Member", period: "2017 — Present", place: "Singapore", points: [
-    "Board-level governance for an award-winning maritime DeepTech platform using blockchain and AI.",
-    "Built alliances with the IMO, port authorities and global shipowners for world-first e-certificate and smart bunkering protocols.",
+  { company: "Navozyme Pte Ltd", title: "Co-Founder & Board Member", period: "Jul 2017 — Present", place: "Singapore", points: [
+    "Spearheaded a pioneering greenfield digital transformation in shipping, using blockchain and AI to streamline document exchange.",
+    "Defined the product architecture and forged international partnerships for global scale.",
   ]},
-  { company: "Bostomar Shipping Pte Ltd", title: "CEO & Founding Managing Director", period: "2016 — 2023", place: "Singapore", points: [
-    "Built an asset-light dry bulk operating and chartering platform with 50% year-on-year volume growth.",
-    "Sat on international panels with BIMCO and Precious Shipping; led an orderly, compliant wind-down post-COVID.",
+  { company: "Bostomar Holdings Pte Ltd", title: "Director", period: "Sep 2015 — Oct 2023", place: "Singapore", points: [
+    "Drove over $100 million in dry bulk chartering revenue over five years across Handysize to Capesize.",
+    "Delivered 50% CAGR in the first three years, building and owning networks personally.",
+    "Managed the full voyage lifecycle and post-fixture operations; managed risk through FFAs and due diligence.",
+    "Structured joint ventures and strategic contracts; consulted on shipping and infrastructure projects for clients including Bain & Co.",
   ]},
-  { company: "Emerald Maritime LLC", title: "Founding MD & Entrepreneurial Partner", period: "2012 — 2015", place: "Dubai", points: [
-    "Launched a dry bulk operating business and 3PL logistics division from a cold start with full P&L ownership.",
-    "Scaled revenues beyond $100M within three years with Fortune-listed clients, ahead of a successful equity exit.",
+  { company: "Emerald Maritime", title: "Chief Operating Officer", period: "Sep 2012 — Aug 2015", place: "Dubai", points: [
+    "Created a dry bulk chartering organisation from scratch, with Fortune-listed clients and revenues above $100 million within three years.",
+    "Established a 3PL supply chain division with full P&L responsibility; supported the trading arm on LC facilities and commodity trades.",
   ]},
-  { company: "Tata Group — International Shipping & Logistics", title: "Senior Business Development Manager", period: "2010 — 2012", place: "Dubai", points: [
-    "Opened new commodities, Atlantic trades and a project-cargo vertical; led shipbuilding and acquisition projects for the CEO and board.",
+  { company: "Tata Steel subsidiary", title: "Senior Manager — Chartering", period: "Nov 2010 — Aug 2012", place: "Dubai", points: [
+    "Developed a new forest-products business vertical and diversified the portfolio.",
+    "Led Process Excellence across the organisation and supported the COO on newbuilding and vessel acquisition strategy.",
   ]},
-  { company: "Fleet Management Limited", title: "Captain / Delivery Project Head", period: "2008", place: "Japan", points: [
-    "Led a 30-strong multicultural newbuild delivery team and helped secure a long-term charter with an oil major.",
+  { company: "Noble Group", title: "Newbuilding Project Lead", period: "Mar 2008 — May 2008", place: "Hong Kong", points: [
+    "Led a 30-strong multicultural team to complete a $60M ship-delivery project.",
+    "Improved yard lead times and helped secure a long-term contract with oil majors.",
   ]},
-  { company: "A.P. Moller — Maersk", title: "Captain, Fleet Quality Manager, Chief Officer", period: "2000 — 2007", place: "Worldwide", points: [
-    "Rose to command as Master of Aframax tankers.",
-    "As Fleet Quality Manager, supervised delivery of four newbuilds and lifted gross margin 5% in one year.",
-    "Cut port turnaround times by 20%; received the \"Best Officer\" award.",
+  { company: "A.P. Moller — Maersk", title: "Captain, Fleet Quality Manager, Chief Officer", period: "2002 — 2007", place: "Singapore", points: [
+    "Chief Officer (2002–2005), then Fleet Quality Manager (2006–2007) and Merchant Ship Captain — one of the youngest captains in the fleet.",
+    "Led multi-million-dollar asset management, delivering value to stakeholders across cultures.",
   ]},
   { company: "OMI", title: "Second Navigating Officer", period: "1995 — 1999", place: "Worldwide", points: [
     "Started deep-sea career; introduced preventive maintenance and cross-cultural training practices.",
@@ -52,9 +56,10 @@ export const experience: Role[] = [
 ];
 
 export const education = [
-  { school: "China Europe International Business School (CEIBS)", detail: "MBA, Business Studies · 2008–2010" },
+  { school: "China Europe International Business School (CEIBS), Shanghai", detail: "MBA, General Management · 2008–2010 · Topped business simulation" },
+  { school: "Indian Maritime University, Navi Mumbai", detail: "BSc Nautical Sciences · 1992–1995 · First Class with Distinction" },
+  { school: "NUS–SMU (sponsored by AMTD)", detail: "Digital Finance Leadership Programme; Blockchain course, SMU" },
   { school: "UNITAR", detail: "Carbon Taxation & ETS Policy · 2022" },
-  { school: "One UN Climate Change Learning Partnership", detail: "Maritime Decarbonisation · 2022" },
   { school: "DNV GL", detail: "Internal Auditor, ISO 9001 / 14001 / 45001 / 50001 · 2022" },
   { school: "Lloyd's Maritime Academy", detail: "Dry Bulk Shipping & RightShip Vetting · 2022" },
 ];
