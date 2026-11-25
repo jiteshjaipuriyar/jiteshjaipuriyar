@@ -17,7 +17,7 @@ function Resume() {
       <PageHeader eyebrow="Resume" title="Curriculum vitae" />
       <section className="mx-auto max-w-5xl px-6 py-16">
         <div className="flex flex-wrap items-center justify-between gap-4 border border-border bg-card p-8">
-          <div><h2 className="text-3xl text-primary">Full CV (PDF)</h2><p className="text-muted-foreground">Complete career history, six pages.</p></div>
+          <div><h2 className="text-3xl text-primary">Full CV (PDF)</h2><p className="text-muted-foreground">Complete career history, two pages.</p></div>
           <a href={cv.url} download className="rounded-sm bg-primary px-6 py-3 font-semibold text-primary-foreground hover:opacity-90">Download CV</a>
         </div>
         <div className="mt-14 grid gap-12 md:grid-cols-3">
