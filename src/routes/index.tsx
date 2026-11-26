@@ -11,10 +11,18 @@ function Index() {
   return (
     <>
       <section className="bg-navy text-navy-foreground">
-        <div className="mx-auto grid max-w-6xl items-center gap-12 px-6 py-20 md:grid-cols-[1fr_auto] md:py-28">
-          <div>
-          <p className="eyebrow">Master Mariner · CEO · Board Member</p>
-          <h1 className="mt-6 text-5xl leading-tight md:text-7xl">{profile.name}<span className="text-gold">, {profile.post}</span></h1>
+        <div className="mx-auto max-w-6xl px-6 py-20 md:py-28">
+          <div className="flex flex-col gap-8 sm:flex-row sm:items-start sm:justify-between sm:gap-12">
+            <div className="min-w-0">
+              <p className="eyebrow">Master Mariner · CEO · Board Member</p>
+              <h1 className="mt-6 text-5xl leading-tight md:text-7xl">{profile.name}<span className="text-gold">, {profile.post}</span></h1>
+            </div>
+            <div className="w-40 shrink-0 sm:w-48 md:w-64">
+              <div className="aspect-[4/5] overflow-hidden rounded-sm border-2 border-gold shadow-2xl">
+                <img src={photo.url} alt="Captain Jitesh Jaipuriyar" className="h-full w-full object-cover object-top" />
+              </div>
+            </div>
+          </div>
           <p className="mt-8 max-w-2xl text-xl opacity-85">{profile.tagline}</p>
           <ul className="mt-6 flex flex-wrap gap-x-6 gap-y-2 text-sm text-gold">
             {credentials.map((c) => <li key={c}>{c}</li>)}
@@ -22,12 +30,6 @@ function Index() {
           <div className="mt-10 flex flex-wrap gap-4">
             <Link to="/advisory" className="rounded-sm bg-gold px-6 py-3 font-semibold text-accent-foreground hover:opacity-90">Advisory services</Link>
             <Link to="/resume" className="rounded-sm border border-gold px-6 py-3 text-gold hover:bg-gold hover:text-accent-foreground">View resume</Link>
-          </div>
-          </div>
-          <div className="mx-auto w-64 md:w-80">
-            <div className="aspect-[4/5] overflow-hidden rounded-sm border-2 border-gold shadow-2xl">
-              <img src={photo.url} alt="Captain Jitesh Jaipuriyar" className="h-full w-full object-cover object-top" />
-            </div>
           </div>
         </div>
       </section>
