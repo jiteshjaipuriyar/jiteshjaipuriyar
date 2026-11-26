@@ -8,7 +8,7 @@ export const Route = createFileRoute("/resume")({
   component: Resume,
 });
 
-const skills = ["Dry Bulk Chartering", "Full P&L Ownership", "Risk Management & FFA Hedging", "Charter Party & Laytime/Demurrage", "Tech–Commercial Alignment", "Compliance & ESG", "Stakeholder & Relationship Management", "Veson IMOS & Netpas"];
+const skills = ["Dry Bulk Chartering", "Full P&L Ownership", "Risk Management & FFA Hedging", "Charter Party & Laytime/Demurrage", "Charter Party & Commercial Dispute Resolution", "Arbitration & Expert Witness", "Tech–Commercial Alignment", "Compliance & ESG", "Stakeholder & Relationship Management", "Veson IMOS & Netpas"];
 const languages = ["Hindi — Native", "English — Fluent", "Mandarin — Basic", "Spanish — Basic"];
 
 function Resume() {

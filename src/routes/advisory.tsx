@@ -3,7 +3,7 @@ import { services } from "@/data/profile";
 import { PageHeader } from "@/components/SiteLayout";
 
 export const Route = createFileRoute("/advisory")({
-  head: () => ({ meta: [ { title: "Advisory — Captain Jitesh Jaipuriyar" }, { name: "description", content: "Board, commercial, fleet, ESG and venture advisory for shipowners, operators and maritime investors." }, { property: "og:title", content: "Advisory — Captain Jitesh Jaipuriyar" }, { property: "og:description", content: "Board, commercial, fleet, ESG and venture advisory for shipowners, operators and maritime investors." }, { property: "og:type", content: "website" }, { name: "twitter:card", content: "summary_large_image" } ] }),
+  head: () => ({ meta: [ { title: "Advisory — Captain Jitesh Jaipuriyar" }, { name: "description", content: "Board, commercial, fleet, ESG, arbitration and venture advisory for shipowners, operators and maritime investors." }, { property: "og:title", content: "Advisory — Captain Jitesh Jaipuriyar" }, { property: "og:description", content: "Board, commercial, fleet, ESG, arbitration and venture advisory for shipowners, operators and maritime investors." }, { property: "og:type", content: "website" }, { name: "twitter:card", content: "summary_large_image" } ] }),
   component: Advisory,
 });
 
@@ -27,6 +27,20 @@ function Advisory() {
               <p className="mt-3 text-muted-foreground">{s.text}</p>
             </div>
           ))}
+        </div>
+      </section>
+      <section className="mx-auto max-w-6xl px-6 pb-20">
+        <p className="eyebrow">Disputes &amp; arbitration</p>
+        <h2 className="mt-4 text-4xl text-primary">Pragmatic resolution of charter party and commercial disputes.</h2>
+        <div className="mt-8 grid gap-8 md:grid-cols-2">
+          <div className="border-l-2 border-gold pl-6">
+            <h3 className="text-2xl text-primary">Arbitration &amp; dispute resolution</h3>
+            <p className="mt-2 text-muted-foreground">Expertise in resolving charter party and commercial shipping disputes in a pragmatic manner.</p>
+          </div>
+          <div className="border-l-2 border-gold pl-6">
+            <h3 className="text-2xl text-primary">Expert witness</h3>
+            <p className="mt-2 text-muted-foreground">Expert witness in an Indian arbitration in a tribunal consisting of Supreme Court judges.</p>
+          </div>
         </div>
       </section>
       <section className="bg-secondary">

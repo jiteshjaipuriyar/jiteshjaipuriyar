@@ -59,8 +59,8 @@ function Index() {
           <p className="eyebrow">Recognition & thought leadership</p>
           <h2 className="mt-4 text-4xl text-primary">Trusted by regulators, ports and business schools.</h2>
           <div className="mt-10 grid gap-10 md:grid-cols-2">
-            {recognition.map((r) => (
-              <div key={r.title} className="border-l-2 border-gold pl-6">
+            {recognition.map((r, i) => (
+              <div key={r.title} className={`border-l-2 border-gold pl-6${i === recognition.length - 1 && recognition.length % 2 === 1 ? " md:col-span-2" : ""}`}>
                 <h3 className="text-2xl text-primary">{r.title}</h3>
                 <p className="mt-2 text-muted-foreground">{r.text}</p>
               </div>

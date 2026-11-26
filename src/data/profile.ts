@@ -73,11 +73,12 @@ export const services = [
   { title: "Turnarounds & Market Entry", text: "Building or restructuring operating businesses, cargo books and regional platforms — including orderly exits." },
 ];
 
-export const credentials = ["Master Mariner", "MBA, CEIBS", "AFNI — Nautical Institute", "LMAA Supporting Member"];
+export const credentials = ["Master Mariner", "MBA, CEIBS", "AFNI — Nautical Institute", "LMAA supporting member and a maritime arbitrator"];
 
 export const recognition = [
   { title: "IMO-recognised maritime innovation", text: "As co-founder of Navozyme, helped earn IMO recognition (2019) as a pioneer of blockchain-enabled e-certificates for seafarers and ships." },
   { title: "Port and regulator partnerships", text: "Led industry alliances including BRAV with the Maritime and Port Authority of Singapore, and port-clearance pilots with the Ports of Barcelona and Tenerife." },
   { title: "Business school speaker", text: "Guest lecturer to the UCLA–NUS Executive MBA (2019) and featured C-suite alumni speaker at CEIBS (2020) on leadership through crisis." },
   { title: "Voice on decarbonisation policy", text: "Publicly argues for a fair CII methodology, including correction factors for war-risk and force-majeure disruption to shipping." },
+  { title: "Arbitration and expert witness", text: "Acted as expert witness in an Indian arbitration before a tribunal consisting of Supreme Court judges." },
 ];
